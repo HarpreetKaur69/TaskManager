@@ -68,6 +68,7 @@ class AddSubTaskViewModel{
                 return
             }
             recorder.play(name: audioURL.value!)
+            playSlider()
         }
         
     }

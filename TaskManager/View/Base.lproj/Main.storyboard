@@ -809,7 +809,7 @@
         <scene sceneID="gSa-A0-n2e">
             <objects>
                 <viewController storyboardIdentifier="SubTasksViewController" id="E6M-6G-YtQ" customClass="SubTasksViewController" customModule="TaskManager" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Jqd-V0-JS7">
+                    <view key="view" contentMode="scaleToFill" id="Jqd-V0-JS7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -838,8 +838,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tFO-ov-gUu">
-                                                    <rect key="frame" x="10" y="38.5" width="25" height="24"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="tFO-ov-gUu">
+                                                    <rect key="frame" x="10" y="39" width="25" height="24"/>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="25" id="hFy-DW-dCv"/>
@@ -853,6 +853,7 @@
                                                 <constraint firstItem="eba-d4-2XI" firstAttribute="top" secondItem="k7U-yB-GQf" secondAttribute="topMargin" constant="9.5" id="eEP-kR-lGl"/>
                                                 <constraint firstItem="eba-d4-2XI" firstAttribute="leading" secondItem="tFO-ov-gUu" secondAttribute="trailing" constant="15" id="g7e-EK-nuf"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="eba-d4-2XI" secondAttribute="trailing" constant="15" id="tJO-yc-edm"/>
+                                                <constraint firstItem="tFO-ov-gUu" firstAttribute="centerY" secondItem="k7U-yB-GQf" secondAttribute="centerY" id="yL0-cb-CPs"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

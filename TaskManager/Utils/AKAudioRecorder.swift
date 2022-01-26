@@ -17,7 +17,6 @@ class AKAudioRecorder: NSObject {
                                 AVNumberOfChannelsKey: 1,
                                 AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue ]
     
-    
     fileprivate var timer: Timer!
     private var myRecordings = [String]()
     private var fileName : String?

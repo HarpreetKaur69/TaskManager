@@ -26,6 +26,7 @@ class TaskDetailViewModel{
                 return
             }
             recorder.play(name: audioURL.value!)
+            playSlider()
         }
         
     }

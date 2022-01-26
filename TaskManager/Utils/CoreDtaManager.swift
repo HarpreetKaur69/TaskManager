@@ -16,7 +16,6 @@ class CoreDataManager{
            NSEntityDescription.entity(forEntityName: "Task",
                                       in: managedContext)!
          
-        
          let task = NSManagedObject(entity: entity,
                                       insertInto: managedContext)
         task.setValue(id, forKeyPath: "id")
