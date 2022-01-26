@@ -16,6 +16,7 @@ class DirectoryManager{
                catch {
                    print("Error Writing Image: \(error)")
                }
+               
            }
            else {
                print("This file exists -- something is already placed at this location")
